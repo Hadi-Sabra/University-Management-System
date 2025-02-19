@@ -7,4 +7,8 @@
         <RootNamespace>ProjectName.Persistance</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="ContextDb\" />
+    </ItemGroup>
+
 </Project>
