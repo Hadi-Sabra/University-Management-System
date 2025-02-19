@@ -12,4 +12,10 @@
       <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DDD-Demo.Domain\DDD-Demo.Domain.csproj" />
+      <ProjectReference Include="..\DDD-Demo.Infrastructure\DDD-Demo.Infrastructure.csproj" />
+      <ProjectReference Include="..\DDD-Demo.Persistance\DDD-Demo.Persistance.csproj" />
+    </ItemGroup>
+
 </Project>

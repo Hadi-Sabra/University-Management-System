@@ -11,4 +11,9 @@
       <Folder Include="ContextDb\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DDD-Demo.Common\DDD-Demo.Common.csproj" />
+      <ProjectReference Include="..\DDD-Demo.Domain\DDD-Demo.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
