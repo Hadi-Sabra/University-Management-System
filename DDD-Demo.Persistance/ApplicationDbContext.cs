@@ -1,4 +1,10 @@
-﻿namespace ProjectName.Persistance;
+﻿using Core.Domain.Entities;
+using Core.Interfaces;
+using MediatR;
+using Microsoft.EntityFrameworkCore;
+using ProjectName.Infrastructure.Extensions;
+
+namespace ProjectName.Persistence;
 
 public class ApplicationDbContext : DbContext, IApplicationDbContext
 {

@@ -8,12 +8,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="ContextDb\" />
+      <ProjectReference Include="..\DDD-Demo.Common\DDD-Demo.Common.csproj" />
+      <ProjectReference Include="..\DDD-Demo.Domain\DDD-Demo.Domain.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DDD-Demo.Common\DDD-Demo.Common.csproj" />
-      <ProjectReference Include="..\DDD-Demo.Domain\DDD-Demo.Domain.csproj" />
+      <PackageReference Include="MediatR" Version="12.4.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.3" />
     </ItemGroup>
 
 </Project>
