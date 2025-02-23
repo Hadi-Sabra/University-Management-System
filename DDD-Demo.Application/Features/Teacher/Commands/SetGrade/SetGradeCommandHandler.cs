@@ -1,4 +1,7 @@
-﻿using MediatR;
+﻿using Common;
+using Core.Interfaces;
+using MediatR;
+using Microsoft.EntityFrameworkCore;
 
 namespace Core.Features.Teacher.Commands.SetGrade;
 

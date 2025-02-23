@@ -1,4 +1,8 @@
-﻿using MediatR;
+﻿using Common;
+using Core.Domain.Entities;
+using Core.Interfaces;
+using MediatR;
+using Microsoft.EntityFrameworkCore;
 
 namespace Core.Features.Student.Commands.EnrollInCourse;
 

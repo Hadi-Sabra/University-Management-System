@@ -1,8 +1,10 @@
-﻿using Core.Features.Courses.Commands.CreateCourse;
+﻿using Core.DTOs;
+using Core.DTOs.Requests;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Query;
+using CreateCourseCommand = Core.Features.Courses.Commands.CreateCourse.CreateCourseCommand;
 
 namespace ProjectName.API.Controllers.V1;
 

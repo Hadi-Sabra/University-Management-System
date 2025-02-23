@@ -1,4 +1,6 @@
-﻿using MediatR;
+﻿using Core.Domain.Entities;
+using Core.Interfaces;
+using MediatR;
 
 namespace Core.Features.Courses.Commands.CreateCourse;
 
