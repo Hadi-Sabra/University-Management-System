@@ -2,6 +2,7 @@
 using Core.Domain;
 using Infrastructure.Persistence;
 using Infrastructure;
+using Infrastructure.BackgroundJobs;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.OData;
 using Microsoft.AspNetCore.Mvc.Versioning;
@@ -49,6 +50,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseHangfireServices();
 
 // Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
